@@ -8,6 +8,8 @@ namespace DemoContentGit.Entity
         public int Id { get; set; }
        [Required]
         public string Name { get; set; }
+        public string Decripstion { get; set; }
+        public string PathImage { get; set; }
         public decimal Price { get; set; }
         public string Content { get; set; }
         public string Title { get; set; }
