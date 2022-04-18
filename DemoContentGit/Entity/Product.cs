@@ -6,9 +6,11 @@ namespace DemoContentGit.Entity
     {
         [Key]
         public int Id { get; set; }
-        [StringLength(50)]
+       [Required]
         public string Name { get; set; }
         public decimal Price { get; set; }
+        public string Content { get; set; }
+        public string Title { get; set; }
         public decimal LastPrice { get; set; }
         public ProductDetail ProductDetail { get; set; }
     }
