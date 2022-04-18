@@ -1,3 +1,2 @@
-
-Ok ok nhé cu 
+O sao sao nhé cu 
 
