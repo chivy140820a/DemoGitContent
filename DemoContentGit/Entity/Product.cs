@@ -6,7 +6,8 @@ namespace DemoContentGit.Entity
     {
         [Key]
         public int Id { get; set; }
-       [Required]
+        [Required]
+        [StringLength(50)]
         public string Name { get; set; }
         public string Decripstion { get; set; }
         public string PathImage { get; set; }
